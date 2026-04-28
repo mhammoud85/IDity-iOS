@@ -1,0 +1,24 @@
+{
+  "originHash" : "befce1a50e49926b0f78a2e4e45fd53d2fae1f76eab02dbcd497aa7b72e6d604",
+  "pins" : [
+    {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alamofire/Alamofire.git",
+      "state" : {
+        "revision" : "e938f8c66708e7352fc7e3512647fa54255b267a",
+        "version" : "5.11.2"
+      }
+    },
+    {
+      "identity" : "idity-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mhammoud85/IDity-iOS.git",
+      "state" : {
+        "revision" : "be6caf5e3aeba45d017b2b09ce9d494739d56e50",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 3
+}
