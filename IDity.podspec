@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version          = '1.0.0'
   s.summary          = 'Public SDK for IDity Identity Verification.'
   s.homepage         = 'https://football-lebanon.com' # Your public site
-  s.license          = { :type => 'MIT' }
+  s.license      = "MIT"
   s.author           = { 'Mohamad Hammoud' => 'mhammoud85@hotmail.com' }
 
   # POINT TO THE HOSTED ZIP FILE
