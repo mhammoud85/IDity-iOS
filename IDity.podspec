@@ -1,17 +1,21 @@
 Pod::Spec.new do |s|
   s.name             = 'IDity'
   s.version          = '1.0.0'
-  s.summary          = 'IDity for iOS'
-  s.description      = 'Detailed description of your SDK'
-  s.homepage         = 'https://github.com'
+  s.summary          = 'Public SDK for IDity Identity Verification.'
+  s.homepage         = 'https://football-lebanon.com' # Your public site
   s.license          = { :type => 'MIT' }
-  s.author           = { 'You' => 'mhammoud85@hotmail.com' }
+  s.author           = { 'Mohamad Hammoud' => 'mhammoud85@hotmail.com' }
 
-  s.platform         = :ios, '15.6'
-
-  s.source           = {
-    :http => 'https://github.com/mhammoud85/IDity-iOS/releases/download/1.0.0/IDity.xcframework.zip'
+  # POINT TO THE HOSTED ZIP FILE
+  s.source           = { 
+    :http => 'https://github.com/mhammoud85/IDity-iOS/releases/download/1.0.0/IDity.xcframework.zip' 
   }
 
+  s.ios.deployment_target = '15.6'
+  
+  # Tell CocoaPods to use the framework inside the downloaded zip
   s.vendored_frameworks = 'IDity.xcframework'
+  
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 end
