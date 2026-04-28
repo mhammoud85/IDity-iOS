@@ -1,0 +1,54 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2.1 effective-5.10 (swiftlang-6.2.1.4.8 clang-1700.4.4.1)
+// swift-module-flags: -target x86_64-apple-ios15.6-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name IDity
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.1
+import AVFoundation
+import CoreImage
+import Foundation
+import ImageIO
+import PhotosUI
+import Swift
+import UIKit
+import Vision
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public protocol IDityJourneyCallbacks : AnyObject {
+  func onJourneyStarted(journey: Swift.Int)
+  func onJourneyCompleted(infoObject: IDity.InfoObject)
+  func onJourneyCancelled()
+  func onError(error: any Swift.Error)
+}
+@objc @_inheritsConvenienceInitializers public class IDitySDK : ObjectiveC.NSObject {
+  public static func initialize(clientKey: Swift.String, tintColor: UIKit.UIColor = .tintColor)
+  public static func startJourney(from presenter: UIKit.UIViewController, referenceNumber: Swift.String, delegate: any IDity.IDityJourneyCallbacks)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class InfoObject : ObjectiveC.NSObject {
+  public var firstName: Swift.String
+  public var lastName: Swift.String
+  public var fatherName: Swift.String
+  public var motherFirstName: Swift.String
+  public var motherLastName: Swift.String
+  public var pob: Swift.String
+  public var dob: Swift.String
+  public var nationality: Swift.String
+  public var gender: Swift.String
+  public var document: IDity.DocumentObject
+  public var faceImage: UIKit.UIImage?
+  public func isDefault() -> Swift.Bool
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class DocumentObject : ObjectiveC.NSObject {
+  public var documentType: Swift.String
+  public var issueDate: Swift.String
+  public var expiryDate: Swift.String
+  public var idNumber: Swift.String
+  public var issueCountry: Swift.String
+  public var documentImage: UIKit.UIImage?
+  public func isDefault() -> Swift.Bool
+  @objc override dynamic public init()
+  @objc deinit
+}

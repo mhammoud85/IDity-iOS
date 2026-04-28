@@ -1,0 +1,2458 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "IDity",
+    "printedName": "IDity",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IDity",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IDity",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IDity",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PhotosUI",
+        "printedName": "PhotosUI",
+        "declKind": "Import",
+        "moduleName": "IDity"
+      },
+      {
+        "kind": "Import",
+        "name": "Vision",
+        "printedName": "Vision",
+        "declKind": "Import",
+        "moduleName": "IDity"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IDity",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IDity"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IDity",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreImage",
+        "printedName": "CoreImage",
+        "declKind": "Import",
+        "moduleName": "IDity"
+      },
+      {
+        "kind": "Import",
+        "name": "ImageIO",
+        "printedName": "ImageIO",
+        "declKind": "Import",
+        "moduleName": "IDity"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IDity",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IDity"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IDityJourneyCallbacks",
+        "printedName": "IDityJourneyCallbacks",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onJourneyStarted",
+            "printedName": "onJourneyStarted(journey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5IDity0A16JourneyCallbacksP02onB7Started7journeyySi_tF",
+            "mangledName": "$s5IDity0A16JourneyCallbacksP02onB7Started7journeyySi_tF",
+            "moduleName": "IDity",
+            "genericSig": "<τ_0_0 where τ_0_0 : IDity.IDityJourneyCallbacks>",
+            "sugared_genericSig": "<Self where Self : IDity.IDityJourneyCallbacks>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onJourneyCompleted",
+            "printedName": "onJourneyCompleted(infoObject:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "InfoObject",
+                "printedName": "IDity.InfoObject",
+                "usr": "c:@M@IDity@objc(cs)InfoObject"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5IDity0A16JourneyCallbacksP02onB9Completed10infoObjectyAA04InfoG0C_tF",
+            "mangledName": "$s5IDity0A16JourneyCallbacksP02onB9Completed10infoObjectyAA04InfoG0C_tF",
+            "moduleName": "IDity",
+            "genericSig": "<τ_0_0 where τ_0_0 : IDity.IDityJourneyCallbacks>",
+            "sugared_genericSig": "<Self where Self : IDity.IDityJourneyCallbacks>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onJourneyCancelled",
+            "printedName": "onJourneyCancelled()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5IDity0A16JourneyCallbacksP02onB9CancelledyyF",
+            "mangledName": "$s5IDity0A16JourneyCallbacksP02onB9CancelledyyF",
+            "moduleName": "IDity",
+            "genericSig": "<τ_0_0 where τ_0_0 : IDity.IDityJourneyCallbacks>",
+            "sugared_genericSig": "<Self where Self : IDity.IDityJourneyCallbacks>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onError",
+            "printedName": "onError(error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5IDity0A16JourneyCallbacksP7onError5errorys0E0_p_tF",
+            "mangledName": "$s5IDity0A16JourneyCallbacksP7onError5errorys0E0_p_tF",
+            "moduleName": "IDity",
+            "genericSig": "<τ_0_0 where τ_0_0 : IDity.IDityJourneyCallbacks>",
+            "sugared_genericSig": "<Self where Self : IDity.IDityJourneyCallbacks>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:5IDity0A16JourneyCallbacksP",
+        "mangledName": "$s5IDity0A16JourneyCallbacksP",
+        "moduleName": "IDity",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IDitySDK",
+        "printedName": "IDitySDK",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(clientKey:tintColor:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5IDity0A3SDKC10initialize9clientKey9tintColorySS_So7UIColorCtFZ",
+            "mangledName": "$s5IDity0A3SDKC10initialize9clientKey9tintColorySS_So7UIColorCtFZ",
+            "moduleName": "IDity",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startJourney",
+            "printedName": "startJourney(from:referenceNumber:delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IDityJourneyCallbacks",
+                "printedName": "any IDity.IDityJourneyCallbacks",
+                "usr": "s:5IDity0A16JourneyCallbacksP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5IDity0A3SDKC12startJourney4from15referenceNumber8delegateySo16UIViewControllerC_SSAA0aD9Callbacks_ptFZ",
+            "mangledName": "$s5IDity0A3SDKC12startJourney4from15referenceNumber8delegateySo16UIViewControllerC_SSAA0aD9Callbacks_ptFZ",
+            "moduleName": "IDity",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IDitySDK",
+                "printedName": "IDity.IDitySDK",
+                "usr": "c:@M@IDity@objc(cs)IDitySDK"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@IDity@objc(cs)IDitySDK(im)init",
+            "mangledName": "$s5IDity0A3SDKCACycfc",
+            "moduleName": "IDity",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@IDity@objc(cs)IDitySDK",
+        "mangledName": "$s5IDity0A3SDKC",
+        "moduleName": "IDity",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IDity",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IDity"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "InfoObject",
+        "printedName": "InfoObject",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "firstName",
+            "printedName": "firstName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5IDity10InfoObjectC9firstNameSSvp",
+            "mangledName": "$s5IDity10InfoObjectC9firstNameSSvp",
+            "moduleName": "IDity",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5IDity10InfoObjectC9firstNameSSvg",
+                "mangledName": "$s5IDity10InfoObjectC9firstNameSSvg",
+                "moduleName": "IDity",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5IDity10InfoObjectC9firstNameSSvs",
+                "mangledName": "$s5IDity10InfoObjectC9firstNameSSvs",
+                "moduleName": "IDity",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5IDity10InfoObjectC9firstNameSSvM",
+                "mangledName": "$s5IDity10InfoObjectC9firstNameSSvM",
+                "moduleName": "IDity",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "lastName",
+            "printedName": "lastName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5IDity10InfoObjectC8lastNameSSvp",
+            "mangledName": "$s5IDity10InfoObjectC8lastNameSSvp",
+            "moduleName": "IDity",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5IDity10InfoObjectC8lastNameSSvg",
+                "mangledName": "$s5IDity10InfoObjectC8lastNameSSvg",
+                "moduleName": "IDity",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5IDity10InfoObjectC8lastNameSSvs",
+                "mangledName": "$s5IDity10InfoObjectC8lastNameSSvs",
+                "moduleName": "IDity",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5IDity10InfoObjectC8lastNameSSvM",
+                "mangledName": "$s5IDity10InfoObjectC8lastNameSSvM",
+                "moduleName": "IDity",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fatherName",
+            "printedName": "fatherName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5IDity10InfoObjectC10fatherNameSSvp",
+            "mangledName": "$s5IDity10InfoObjectC10fatherNameSSvp",
+            "moduleName": "IDity",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5IDity10InfoObjectC10fatherNameSSvg",
+                "mangledName": "$s5IDity10InfoObjectC10fatherNameSSvg",
+                "moduleName": "IDity",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5IDity10InfoObjectC10fatherNameSSvs",
+                "mangledName": "$s5IDity10InfoObjectC10fatherNameSSvs",
+                "moduleName": "IDity",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5IDity10InfoObjectC10fatherNameSSvM",
+                "mangledName": "$s5IDity10InfoObjectC10fatherNameSSvM",
+                "moduleName": "IDity",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "motherFirstName",
+            "printedName": "motherFirstName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5IDity10InfoObjectC15motherFirstNameSSvp",
+            "mangledName": "$s5IDity10InfoObjectC15motherFirstNameSSvp",
+            "moduleName": "IDity",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5IDity10InfoObjectC15motherFirstNameSSvg",
+                "mangledName": "$s5IDity10InfoObjectC15motherFirstNameSSvg",
+                "moduleName": "IDity",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5IDity10InfoObjectC15motherFirstNameSSvs",
+                "mangledName": "$s5IDity10InfoObjectC15motherFirstNameSSvs",
+                "moduleName": "IDity",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5IDity10InfoObjectC15motherFirstNameSSvM",
+                "mangledName": "$s5IDity10InfoObjectC15motherFirstNameSSvM",
+                "moduleName": "IDity",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "motherLastName",
+            "printedName": "motherLastName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5IDity10InfoObjectC14motherLastNameSSvp",
+            "mangledName": "$s5IDity10InfoObjectC14motherLastNameSSvp",
+            "moduleName": "IDity",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5IDity10InfoObjectC14motherLastNameSSvg",
+                "mangledName": "$s5IDity10InfoObjectC14motherLastNameSSvg",
+                "moduleName": "IDity",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5IDity10InfoObjectC14motherLastNameSSvs",
+                "mangledName": "$s5IDity10InfoObjectC14motherLastNameSSvs",
+                "moduleName": "IDity",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5IDity10InfoObjectC14motherLastNameSSvM",
+                "mangledName": "$s5IDity10InfoObjectC14motherLastNameSSvM",
+                "moduleName": "IDity",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "pob",
+            "printedName": "pob",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5IDity10InfoObjectC3pobSSvp",
+            "mangledName": "$s5IDity10InfoObjectC3pobSSvp",
+            "moduleName": "IDity",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5IDity10InfoObjectC3pobSSvg",
+                "mangledName": "$s5IDity10InfoObjectC3pobSSvg",
+                "moduleName": "IDity",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5IDity10InfoObjectC3pobSSvs",
+                "mangledName": "$s5IDity10InfoObjectC3pobSSvs",
+                "moduleName": "IDity",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5IDity10InfoObjectC3pobSSvM",
+                "mangledName": "$s5IDity10InfoObjectC3pobSSvM",
+                "moduleName": "IDity",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dob",
+            "printedName": "dob",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5IDity10InfoObjectC3dobSSvp",
+            "mangledName": "$s5IDity10InfoObjectC3dobSSvp",
+            "moduleName": "IDity",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5IDity10InfoObjectC3dobSSvg",
+                "mangledName": "$s5IDity10InfoObjectC3dobSSvg",
+                "moduleName": "IDity",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5IDity10InfoObjectC3dobSSvs",
+                "mangledName": "$s5IDity10InfoObjectC3dobSSvs",
+                "moduleName": "IDity",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5IDity10InfoObjectC3dobSSvM",
+                "mangledName": "$s5IDity10InfoObjectC3dobSSvM",
+                "moduleName": "IDity",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "nationality",
+            "printedName": "nationality",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5IDity10InfoObjectC11nationalitySSvp",
+            "mangledName": "$s5IDity10InfoObjectC11nationalitySSvp",
+            "moduleName": "IDity",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5IDity10InfoObjectC11nationalitySSvg",
+                "mangledName": "$s5IDity10InfoObjectC11nationalitySSvg",
+                "moduleName": "IDity",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5IDity10InfoObjectC11nationalitySSvs",
+                "mangledName": "$s5IDity10InfoObjectC11nationalitySSvs",
+                "moduleName": "IDity",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5IDity10InfoObjectC11nationalitySSvM",
+                "mangledName": "$s5IDity10InfoObjectC11nationalitySSvM",
+                "moduleName": "IDity",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "gender",
+            "printedName": "gender",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5IDity10InfoObjectC6genderSSvp",
+            "mangledName": "$s5IDity10InfoObjectC6genderSSvp",
+            "moduleName": "IDity",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5IDity10InfoObjectC6genderSSvg",
+                "mangledName": "$s5IDity10InfoObjectC6genderSSvg",
+                "moduleName": "IDity",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5IDity10InfoObjectC6genderSSvs",
+                "mangledName": "$s5IDity10InfoObjectC6genderSSvs",
+                "moduleName": "IDity",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5IDity10InfoObjectC6genderSSvM",
+                "mangledName": "$s5IDity10InfoObjectC6genderSSvM",
+                "moduleName": "IDity",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "document",
+            "printedName": "document",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DocumentObject",
+                "printedName": "IDity.DocumentObject",
+                "usr": "c:@M@IDity@objc(cs)DocumentObject"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5IDity10InfoObjectC8documentAA08DocumentC0Cvp",
+            "mangledName": "$s5IDity10InfoObjectC8documentAA08DocumentC0Cvp",
+            "moduleName": "IDity",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DocumentObject",
+                    "printedName": "IDity.DocumentObject",
+                    "usr": "c:@M@IDity@objc(cs)DocumentObject"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5IDity10InfoObjectC8documentAA08DocumentC0Cvg",
+                "mangledName": "$s5IDity10InfoObjectC8documentAA08DocumentC0Cvg",
+                "moduleName": "IDity",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DocumentObject",
+                    "printedName": "IDity.DocumentObject",
+                    "usr": "c:@M@IDity@objc(cs)DocumentObject"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5IDity10InfoObjectC8documentAA08DocumentC0Cvs",
+                "mangledName": "$s5IDity10InfoObjectC8documentAA08DocumentC0Cvs",
+                "moduleName": "IDity",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5IDity10InfoObjectC8documentAA08DocumentC0CvM",
+                "mangledName": "$s5IDity10InfoObjectC8documentAA08DocumentC0CvM",
+                "moduleName": "IDity",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "faceImage",
+            "printedName": "faceImage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5IDity10InfoObjectC9faceImageSo7UIImageCSgvp",
+            "mangledName": "$s5IDity10InfoObjectC9faceImageSo7UIImageCSgvp",
+            "moduleName": "IDity",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5IDity10InfoObjectC9faceImageSo7UIImageCSgvg",
+                "mangledName": "$s5IDity10InfoObjectC9faceImageSo7UIImageCSgvg",
+                "moduleName": "IDity",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5IDity10InfoObjectC9faceImageSo7UIImageCSgvs",
+                "mangledName": "$s5IDity10InfoObjectC9faceImageSo7UIImageCSgvs",
+                "moduleName": "IDity",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5IDity10InfoObjectC9faceImageSo7UIImageCSgvM",
+                "mangledName": "$s5IDity10InfoObjectC9faceImageSo7UIImageCSgvM",
+                "moduleName": "IDity",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "isDefault",
+            "printedName": "isDefault()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5IDity10InfoObjectC9isDefaultSbyF",
+            "mangledName": "$s5IDity10InfoObjectC9isDefaultSbyF",
+            "moduleName": "IDity",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "InfoObject",
+                "printedName": "IDity.InfoObject",
+                "usr": "c:@M@IDity@objc(cs)InfoObject"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@IDity@objc(cs)InfoObject(im)init",
+            "mangledName": "$s5IDity10InfoObjectCACycfc",
+            "moduleName": "IDity",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@IDity@objc(cs)InfoObject",
+        "mangledName": "$s5IDity10InfoObjectC",
+        "moduleName": "IDity",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DocumentObject",
+        "printedName": "DocumentObject",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "documentType",
+            "printedName": "documentType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5IDity14DocumentObjectC12documentTypeSSvp",
+            "mangledName": "$s5IDity14DocumentObjectC12documentTypeSSvp",
+            "moduleName": "IDity",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5IDity14DocumentObjectC12documentTypeSSvg",
+                "mangledName": "$s5IDity14DocumentObjectC12documentTypeSSvg",
+                "moduleName": "IDity",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5IDity14DocumentObjectC12documentTypeSSvs",
+                "mangledName": "$s5IDity14DocumentObjectC12documentTypeSSvs",
+                "moduleName": "IDity",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5IDity14DocumentObjectC12documentTypeSSvM",
+                "mangledName": "$s5IDity14DocumentObjectC12documentTypeSSvM",
+                "moduleName": "IDity",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "issueDate",
+            "printedName": "issueDate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5IDity14DocumentObjectC9issueDateSSvp",
+            "mangledName": "$s5IDity14DocumentObjectC9issueDateSSvp",
+            "moduleName": "IDity",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5IDity14DocumentObjectC9issueDateSSvg",
+                "mangledName": "$s5IDity14DocumentObjectC9issueDateSSvg",
+                "moduleName": "IDity",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5IDity14DocumentObjectC9issueDateSSvs",
+                "mangledName": "$s5IDity14DocumentObjectC9issueDateSSvs",
+                "moduleName": "IDity",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5IDity14DocumentObjectC9issueDateSSvM",
+                "mangledName": "$s5IDity14DocumentObjectC9issueDateSSvM",
+                "moduleName": "IDity",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "expiryDate",
+            "printedName": "expiryDate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5IDity14DocumentObjectC10expiryDateSSvp",
+            "mangledName": "$s5IDity14DocumentObjectC10expiryDateSSvp",
+            "moduleName": "IDity",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5IDity14DocumentObjectC10expiryDateSSvg",
+                "mangledName": "$s5IDity14DocumentObjectC10expiryDateSSvg",
+                "moduleName": "IDity",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5IDity14DocumentObjectC10expiryDateSSvs",
+                "mangledName": "$s5IDity14DocumentObjectC10expiryDateSSvs",
+                "moduleName": "IDity",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5IDity14DocumentObjectC10expiryDateSSvM",
+                "mangledName": "$s5IDity14DocumentObjectC10expiryDateSSvM",
+                "moduleName": "IDity",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "idNumber",
+            "printedName": "idNumber",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5IDity14DocumentObjectC8idNumberSSvp",
+            "mangledName": "$s5IDity14DocumentObjectC8idNumberSSvp",
+            "moduleName": "IDity",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5IDity14DocumentObjectC8idNumberSSvg",
+                "mangledName": "$s5IDity14DocumentObjectC8idNumberSSvg",
+                "moduleName": "IDity",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5IDity14DocumentObjectC8idNumberSSvs",
+                "mangledName": "$s5IDity14DocumentObjectC8idNumberSSvs",
+                "moduleName": "IDity",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5IDity14DocumentObjectC8idNumberSSvM",
+                "mangledName": "$s5IDity14DocumentObjectC8idNumberSSvM",
+                "moduleName": "IDity",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "issueCountry",
+            "printedName": "issueCountry",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5IDity14DocumentObjectC12issueCountrySSvp",
+            "mangledName": "$s5IDity14DocumentObjectC12issueCountrySSvp",
+            "moduleName": "IDity",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5IDity14DocumentObjectC12issueCountrySSvg",
+                "mangledName": "$s5IDity14DocumentObjectC12issueCountrySSvg",
+                "moduleName": "IDity",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5IDity14DocumentObjectC12issueCountrySSvs",
+                "mangledName": "$s5IDity14DocumentObjectC12issueCountrySSvs",
+                "moduleName": "IDity",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5IDity14DocumentObjectC12issueCountrySSvM",
+                "mangledName": "$s5IDity14DocumentObjectC12issueCountrySSvM",
+                "moduleName": "IDity",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "documentImage",
+            "printedName": "documentImage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5IDity14DocumentObjectC13documentImageSo7UIImageCSgvp",
+            "mangledName": "$s5IDity14DocumentObjectC13documentImageSo7UIImageCSgvp",
+            "moduleName": "IDity",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5IDity14DocumentObjectC13documentImageSo7UIImageCSgvg",
+                "mangledName": "$s5IDity14DocumentObjectC13documentImageSo7UIImageCSgvg",
+                "moduleName": "IDity",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5IDity14DocumentObjectC13documentImageSo7UIImageCSgvs",
+                "mangledName": "$s5IDity14DocumentObjectC13documentImageSo7UIImageCSgvs",
+                "moduleName": "IDity",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5IDity14DocumentObjectC13documentImageSo7UIImageCSgvM",
+                "mangledName": "$s5IDity14DocumentObjectC13documentImageSo7UIImageCSgvM",
+                "moduleName": "IDity",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "isDefault",
+            "printedName": "isDefault()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5IDity14DocumentObjectC9isDefaultSbyF",
+            "mangledName": "$s5IDity14DocumentObjectC9isDefaultSbyF",
+            "moduleName": "IDity",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DocumentObject",
+                "printedName": "IDity.DocumentObject",
+                "usr": "c:@M@IDity@objc(cs)DocumentObject"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@IDity@objc(cs)DocumentObject(im)init",
+            "mangledName": "$s5IDity14DocumentObjectCACycfc",
+            "moduleName": "IDity",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@IDity@objc(cs)DocumentObject",
+        "mangledName": "$s5IDity14DocumentObjectC",
+        "moduleName": "IDity",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IDity",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IDity",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "IDity"
+      },
+      {
+        "kind": "Import",
+        "name": "Vision",
+        "printedName": "Vision",
+        "declKind": "Import",
+        "moduleName": "IDity"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IDity",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/klevr\/Documents\/IDity-iOS\/IDity\/DocumentViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 366,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/klevr\/Documents\/IDity-iOS\/IDity\/DocumentViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 389,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/klevr\/Documents\/IDity-iOS\/IDity\/Extension.swift",
+      "kind": "FloatLiteral",
+      "offset": 3368,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/klevr\/Documents\/IDity-iOS\/IDity\/IDitySDK.swift",
+      "kind": "StringLiteral",
+      "offset": 385,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/klevr\/Documents\/IDity-iOS\/IDity\/InfoObject.swift",
+      "kind": "StringLiteral",
+      "offset": 182,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/klevr\/Documents\/IDity-iOS\/IDity\/InfoObject.swift",
+      "kind": "StringLiteral",
+      "offset": 211,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/klevr\/Documents\/IDity-iOS\/IDity\/InfoObject.swift",
+      "kind": "StringLiteral",
+      "offset": 242,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/klevr\/Documents\/IDity-iOS\/IDity\/InfoObject.swift",
+      "kind": "StringLiteral",
+      "offset": 278,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/klevr\/Documents\/IDity-iOS\/IDity\/InfoObject.swift",
+      "kind": "StringLiteral",
+      "offset": 313,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/klevr\/Documents\/IDity-iOS\/IDity\/InfoObject.swift",
+      "kind": "StringLiteral",
+      "offset": 337,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/klevr\/Documents\/IDity-iOS\/IDity\/InfoObject.swift",
+      "kind": "StringLiteral",
+      "offset": 361,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/klevr\/Documents\/IDity-iOS\/IDity\/InfoObject.swift",
+      "kind": "StringLiteral",
+      "offset": 393,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/klevr\/Documents\/IDity-iOS\/IDity\/InfoObject.swift",
+      "kind": "StringLiteral",
+      "offset": 420,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/klevr\/Documents\/IDity-iOS\/IDity\/InfoObject.swift",
+      "kind": "StringLiteral",
+      "offset": 866,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/klevr\/Documents\/IDity-iOS\/IDity\/InfoObject.swift",
+      "kind": "StringLiteral",
+      "offset": 896,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/klevr\/Documents\/IDity-iOS\/IDity\/InfoObject.swift",
+      "kind": "StringLiteral",
+      "offset": 927,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/klevr\/Documents\/IDity-iOS\/IDity\/InfoObject.swift",
+      "kind": "StringLiteral",
+      "offset": 956,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/klevr\/Documents\/IDity-iOS\/IDity\/InfoObject.swift",
+      "kind": "StringLiteral",
+      "offset": 989,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/klevr\/Documents\/IDity-iOS\/IDity\/ResultViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 319,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/klevr\/Documents\/IDity-iOS\/IDity\/SelfieViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1507,
+      "length": 3,
+      "value": "250"
+    },
+    {
+      "filePath": "\/Users\/klevr\/Documents\/IDity-iOS\/IDity\/SelfieViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1512,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/klevr\/Documents\/IDity-iOS\/IDity\/SelfieViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1539,
+      "length": 3,
+      "value": "350"
+    },
+    {
+      "filePath": "\/Users\/klevr\/Documents\/IDity-iOS\/IDity\/SelfieViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1544,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/klevr\/Documents\/IDity-iOS\/IDity\/SelfieViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1554,
+      "length": 3,
+      "value": "250"
+    },
+    {
+      "filePath": "\/Users\/klevr\/Documents\/IDity-iOS\/IDity\/SelfieViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1567,
+      "length": 3,
+      "value": "350"
+    },
+    {
+      "filePath": "\/Users\/klevr\/Documents\/IDity-iOS\/IDity\/SelfieViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1652,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/klevr\/Documents\/IDity-iOS\/IDity\/SelfieViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1842,
+      "length": 3,
+      "value": "0.5"
+    }
+  ]
+}
