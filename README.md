@@ -34,12 +34,18 @@ You must add the camera permission key to your app's **Info.plist**. Without thi
 | :--- | :--- |
 | **NSCameraUsageDescription** | "We need camera access to scan your ID or Passport for identity verification." |
 
+### Supported Languages
+The SDK automatically detects and supports the following languages based on the device settings:
+* **English** 🇺🇸
+* **French** 🇫🇷
+* **Arabic** 🇱🇧
+
 ---
 
 ## 🚀 Getting Started
 
 ### 1. Initialize the SDK
-Initialize the SDK in your `AppDelegate` or at your application's entry point to authenticate your session and set your theme color.
+Initialize the SDK in your `AppDelegate`. You can pass a `tintColor` to match the SDK's UI elements (buttons, icons, and progress bars) to your app's branding.
 
 ```swift
 import IDity
