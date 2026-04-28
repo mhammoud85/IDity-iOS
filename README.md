@@ -102,6 +102,54 @@ extension YourViewController: IDityJourneyCallbacks {
 }
 ```
 
+---
+
+## 📊 Data Models
+
+The `IDityJourneyCallbacks` protocol returns an `InfoObject`. Use these models to map the verified data to your application's user profile.
+
+### InfoObject
+This object contains the personal details of the individual and the biometric face capture.
+
+| Property | Type | Description |
+| :--- | :--- | :--- |
+| `firstName` | `String` | User's given name. |
+| `lastName` | `String` | User's family name / Surname. |
+| `fatherName` | `String` | Father's full name. |
+| `motherFirstName` | `String` | Mother's first name. |
+| `motherLastName` | `String` | Mother's maiden or last name. |
+| `pob` | `String` | Place of Birth. |
+| `dob` | `String` | Date of Birth. |
+| `nationality` | `String` | User's nationality. |
+| `gender` | `String` | Gender (M/F). |
+| `faceImage` | `UIImage?` | The high-resolution selfie/face capture. |
+| `document` | `DocumentObject` | Nested object containing document-specific data. |
+
+### DocumentObject
+This object contains the metadata and imagery of the scanned identification document.
+
+| Property | Type | Description |
+| :--- | :--- | :--- |
+| `documentType` | `String` | Type of document (Passport, ID Card, etc.). |
+| `idNumber` | `String` | The unique identification or passport number. |
+| `issueDate` | `String` | Date the document was issued. |
+| `expiryDate` | `String` | Date the document expires. |
+| `issueCountry` | `String` | The country code or name that issued the document. |
+| `documentImage` | `UIImage?` | High-quality image capture of the document front. |
+
+---
+
+### Helper Methods
+Both classes include a utility method to check if the data is populated:
+
+```swift
+// Check if the object contains any data
+if infoObject.isDefault() {
+    print("No data was captured.")
+} else {
+    print("Verification successful for \(infoObject.firstName)")
+}
+
 ## 🛡️ Privacy & Security
 
 The IDity SDK is built with privacy in mind. Ensure that the PrivacyInfo.xcprivacy file included in the package is correctly bundled to comply with Apple's latest App Store requirements.
