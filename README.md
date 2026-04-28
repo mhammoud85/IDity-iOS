@@ -1,79 +1,95 @@
-# IDity iOS SDK
+IDity iOS SDK
+IDity is an advanced identity verification SDK for iOS. It enables your application to read and extract information directly from a user's ID card or Passport using a secure, cinematic UI.
 
-![iOS](https://img.shields.io/badge/Platform-iOS-lightgrey.svg)
-![Swift](https://img.shields.io/badge/Swift-5.0%2B-orange.svg)
-![Minimum iOS](https://img.shields.io/badge/iOS-15.6%2B-blue.svg)
+🔑 Request a Client Key
+To use the IDity library in your project, you must obtain a Client Key.
+Please contact mhammoud85@hotmail.com to get your credentials before starting your integration.
 
-**IDity** is a powerful identity verification SDK for iOS. It allows your application to seamlessly read and verify information from user IDs and Passports using advanced optical and NFC technologies.
+📦 Installation
+Swift Package Manager (SPM)
 
----
+In Xcode, go to File > Add Packages...
 
-## 🔑 Request a Client Key
-To use the IDity library in your project, you need a valid **Client Key**. 
-Please [Contact Us](mailto:support@idity.io) to obtain your credentials before starting integration.
+Enter the following repository URL:
+https://github.com/mhammoud85/IDity-iOS.git
 
----
+Set the dependency rule to the latest version or branch.
 
-## 📦 Installation
+Minimum Deployment Target: iOS 15.6
 
-### Swift Package Manager (SPM)
-You can install IDity via Swift Package Manager. In Xcode, go to **File > Add Packages...** and enter the following repository URL:
+⚙️ Required Configuration
+You must add the camera permission key to your app's Info.plist. Without this, the application will crash when the SDK attempts to scan a document.
 
-```text
-[https://github.com/mhammoud85/IDity-iOS.git](https://github.com/mhammoud85/IDity-iOS.git)
-
+Key	Value
+NSCameraUsageDescription	"We need camera access to scan your ID or Passport for identity verification."
 🚀 Getting Started
 1. Initialize the SDK
 
-Initialize the SDK in your AppDelegate or SceneDelegate before using any library features. This sets your credentials and the visual theme.
+Initialize the SDK in your AppDelegate or at your application's entry point to set the theme and authenticate your key.
 
 Swift
 import IDity
 
-// Initialize the library
-IDitySDK.initialize(
-    clientKey: "YOUR_CLIENT_KEY", 
-    tintColor: .systemRed
-)
+func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+    
+    // Initialize the library
+    IDitySDK.initialize(
+        clientKey: "YOUR_CLIENT_KEY", 
+        tintColor: .systemRed
+    )
+    
+    return true
+}
 2. Start the Journey
 
-To begin the identity verification process, generate a unique reference number and call startJourney.
+Create a unique reference number for the session and trigger the SDK UI.
 
 Swift
+// Generate a unique reference number
 let referenceNo = "\(UIDevice.current.identifierForVendor?.uuidString ?? "")-\(Date().timeIntervalSince1970)"
 
+// Start the verification process
 IDitySDK.startJourney(
     from: self, 
     referenceNumber: referenceNo, 
     delegate: self
 )
-📩 Callbacks & Results
-Conform to the IDityJourneyCallbacks protocol to handle the lifecycle of the identity verification process.
+📩 Handling Results (IDityJourneyCallbacks)
+Conform to the IDityJourneyCallbacks protocol to receive updates on the verification status and the extracted data.
 
 Swift
 extension YourViewController: IDityJourneyCallbacks {
 
+    /// Called when the SDK successfully initializes and the UI appears
     func onJourneyStarted(journey: Int) {
-        print("Journey started with ID: \(journey)")
+        print("Identity journey \(journey) has started.")
     }
 
+    /// Called when the document scanning and verification is successful
     func onJourneyCompleted(infoObject: IDity.InfoObject) {
-        // Access the extracted ID or Passport data here
-        print("User Name: \(infoObject.firstName ?? "")")
-        print("Document Image: \(String(describing: infoObject.document.documentImage))")
+        // Access extracted data
+        print("First Name: \(infoObject.firstName ?? "N/A")")
+        print("Last Name: \(infoObject.lastName ?? "N/A")")
+        // Access document images if provided
+        // let image = infoObject.document.documentImage
     }
 
+    /// Called when the user manually closes the SDK
     func onJourneyCancelled() {
-        print("User cancelled the identity process.")
+        print("User cancelled the verification process.")
     }
 
+    /// Called if an error occurs during the journey
     func onError(error: any Error) {
-        print("An error occurred: \(error.localizedDescription)")
+        print("IDity Error: \(error.localizedDescription)")
     }
 }
-🛡️ Permissions
-Ensure you add the following keys to your Info.plist to allow the SDK to access the device camera and NFC (if applicable):
+🛡️ Privacy & Security
+The IDity SDK is designed with privacy in mind. Ensure you have included the PrivacyInfo.xcprivacy file if you are bundling this as a library to comply with Apple's latest privacy manifest requirements.
 
-NSCameraUsageDescription: "We need camera access to scan your ID/Passport."
+📧 Contact & Support
+For technical support, feature requests, or to obtain your Client Key, please reach out via email:
 
-NFCReaderUsageDescription: "We need NFC access to read your biometric passport chip."
+Developer: mhammoud85
+
+Email: mhammoud85@hotmail.com
