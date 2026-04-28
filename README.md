@@ -21,3 +21,59 @@ You can install IDity via Swift Package Manager. In Xcode, go to **File > Add Pa
 
 ```text
 [https://github.com/mhammoud85/IDity-iOS.git](https://github.com/mhammoud85/IDity-iOS.git)
+
+🚀 Getting Started
+1. Initialize the SDK
+
+Initialize the SDK in your AppDelegate or SceneDelegate before using any library features. This sets your credentials and the visual theme.
+
+Swift
+import IDity
+
+// Initialize the library
+IDitySDK.initialize(
+    clientKey: "YOUR_CLIENT_KEY", 
+    tintColor: .systemRed
+)
+2. Start the Journey
+
+To begin the identity verification process, generate a unique reference number and call startJourney.
+
+Swift
+let referenceNo = "\(UIDevice.current.identifierForVendor?.uuidString ?? "")-\(Date().timeIntervalSince1970)"
+
+IDitySDK.startJourney(
+    from: self, 
+    referenceNumber: referenceNo, 
+    delegate: self
+)
+📩 Callbacks & Results
+Conform to the IDityJourneyCallbacks protocol to handle the lifecycle of the identity verification process.
+
+Swift
+extension YourViewController: IDityJourneyCallbacks {
+
+    func onJourneyStarted(journey: Int) {
+        print("Journey started with ID: \(journey)")
+    }
+
+    func onJourneyCompleted(infoObject: IDity.InfoObject) {
+        // Access the extracted ID or Passport data here
+        print("User Name: \(infoObject.firstName ?? "")")
+        print("Document Image: \(String(describing: infoObject.document.documentImage))")
+    }
+
+    func onJourneyCancelled() {
+        print("User cancelled the identity process.")
+    }
+
+    func onError(error: any Error) {
+        print("An error occurred: \(error.localizedDescription)")
+    }
+}
+🛡️ Permissions
+Ensure you add the following keys to your Info.plist to allow the SDK to access the device camera and NFC (if applicable):
+
+NSCameraUsageDescription: "We need camera access to scan your ID/Passport."
+
+NFCReaderUsageDescription: "We need NFC access to read your biometric passport chip."
