@@ -70,3 +70,48 @@ IDitySDK.startJourney(
     delegate: self
 )
 ```
+
+## 📩 Handling Results (IDityJourneyCallbacks)
+
+Conform to the IDityJourneyCallbacks protocol to handle the lifecycle and results of the verification process.
+
+```swift
+extension YourViewController: IDityJourneyCallbacks {
+
+    /// Called when the SDK successfully initializes and the UI appears
+    func onJourneyStarted(journey: Int) {
+        print("Identity journey \(journey) has started.")
+    }
+
+    /// Called when the document scanning and verification is successful
+    func onJourneyCompleted(infoObject: IDity.InfoObject) {
+        // Access extracted data
+        print("First Name: \(infoObject.firstName ?? "N/A")")
+        print("Last Name: \(infoObject.lastName ?? "N/A")")
+    }
+
+    /// Called when the user manually closes the SDK before completion
+    func onJourneyCancelled() {
+        print("User cancelled the verification process.")
+    }
+
+    /// Called if an error occurs during the journey
+    func onError(error: any Error) {
+        print("IDity Error: \(error.localizedDescription)")
+    }
+}
+```
+
+## 🛡️ Privacy & Security
+
+The IDity SDK is built with privacy in mind. Ensure that the PrivacyInfo.xcprivacy file included in the package is correctly bundled to comply with Apple's latest App Store requirements.
+
+## 📧 Contact & Support
+
+For technical support, feature requests, or to obtain your Client Key, please reach out:
+
+Developer: mhammoud85
+
+Email: mhammoud85@hotmail.com
+
+
