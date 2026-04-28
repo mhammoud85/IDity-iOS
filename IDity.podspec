@@ -5,16 +5,12 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://football-lebanon.com'
   s.license          = { :type => 'MIT' }
   s.author           = { 'Mohamad Hammoud' => 'mhammoud85@hotmail.com' }
-  
-  # For local testing, this source is a placeholder
   s.source           = { :git => 'https://github.com/mhammoud85/IDity-iOS.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '15.6'
   s.swift_version = '5.0'
 
-  # Path to your framework relative to this podspec file
   s.vendored_frameworks = 'IDity.xcframework'
-  
   s.static_framework = false
 
   s.pod_target_xcconfig = { 
