@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "IDity-iOS",
     platforms: [
-        .iOS(.v15_6) // Set this to your framework's minimum supported version
+        .iOS(.v16) // Set this to your framework's minimum supported version
     ],
     products: [
         .library(
