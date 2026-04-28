@@ -139,17 +139,6 @@ This object contains the metadata and imagery of the scanned identification docu
 
 ---
 
-### Helper Methods
-Both classes include a utility method to check if the data is populated:
-
-```swift
-// Check if the object contains any data
-if infoObject.isDefault() {
-    print("No data was captured.")
-} else {
-    print("Verification successful for \(infoObject.firstName)")
-}
-
 ## 🛡️ Privacy & Security
 
 The IDity SDK is built with privacy in mind. Ensure that the PrivacyInfo.xcprivacy file included in the package is correctly bundled to comply with Apple's latest App Store requirements.
