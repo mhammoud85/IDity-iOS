@@ -1,0 +1,31 @@
+{
+  "object" : {
+    "artifacts" : [
+      {
+        "kind" : {
+          "xcframework" : {
+
+          }
+        },
+        "packageRef" : {
+          "identity" : "idity-ios-t",
+          "kind" : "root",
+          "location" : "/Users/klevr/Documents/IDity-iOS-T",
+          "name" : "IDity-iOS-T"
+        },
+        "path" : "/Users/klevr/Documents/IDity-iOS-T/Frameworks/IDity.xcframework",
+        "source" : {
+          "type" : "local"
+        },
+        "targetName" : "IDity"
+      }
+    ],
+    "dependencies" : [
+
+    ],
+    "prebuilts" : [
+
+    ]
+  },
+  "version" : 7
+}
