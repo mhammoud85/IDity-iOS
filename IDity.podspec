@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.platform         = :ios, '15.0'
 
   s.source           = {
-    :http => 'https://github.com/mhammoud85/IDity-iOS/IDity.xcframework.zip'
+    :http => 'https://github.com/mhammoud85/IDity-iOS/blob/main/IDity.xcframework.zip'
   }
 
   s.vendored_frameworks = 'IDity.xcframework'
