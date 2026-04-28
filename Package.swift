@@ -1,10 +1,12 @@
 // swift-tools-version: 5.9
+// swift-tools-version: 5.9
 import PackageDescription
 
 let package = Package(
     name: "IDity-iOS",
     platforms: [
-        .iOS(.v16) // Set this to your framework's minimum supported version
+        // Using a string avoids the "v15_6" resolution error
+        .iOS("15.6")
     ],
     products: [
         .library(
