@@ -1,14 +1,14 @@
 //
-//  TestTests.swift
-//  TestTests
+//  ExampleTests.swift
+//  ExampleTests
 //
-//  Created by Mohamad Hammoud on 20/04/2026.
+//  Created by Mohamad Hammoud on 29/04/2026.
 //
 
 import Testing
-@testable import Test
+@testable import Example
 
-struct TestTests {
+struct ExampleTests {
 
     @Test func example() async throws {
         // Write your test here and use APIs like `#expect(...)` to check expected conditions.

@@ -1,0 +1,15 @@
+{
+  "originHash" : "50c79587c2bb0145dfc95991319349df406f1483c4b9f44dd85e5e850e5fe383",
+  "pins" : [
+    {
+      "identity" : "idity-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/beinmobiles/IDity-iOS.git",
+      "state" : {
+        "revision" : "6b15017ab353598803a70bc81b34cc30aa7b3ef9",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 3
+}
