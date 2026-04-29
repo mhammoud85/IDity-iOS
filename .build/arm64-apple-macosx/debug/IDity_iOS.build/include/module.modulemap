@@ -1,3 +1,0 @@
-module IDity_iOS {
-    header "/Users/klevr/Documents/IDity-iOS/.build/arm64-apple-macosx/debug/IDity_iOS.build/include/IDity-iOS-Swift.h"
-}

@@ -6,11 +6,6 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		E0708C152FA0DBE800351371 /* IDity in Frameworks */ = {isa = PBXBuildFile; productRef = E0708C142FA0DBE800351371 /* IDity */; };
-		E0F94FED2F97A8D100C07F90 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = E0F94FEC2F97A8D100C07F90 /* Alamofire */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
 		E07FAFBB2F960FE40025161D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -70,8 +65,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0708C152FA0DBE800351371 /* IDity in Frameworks */,
-				E0F94FED2F97A8D100C07F90 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,8 +125,6 @@
 			);
 			name = Test;
 			packageProductDependencies = (
-				E0F94FEC2F97A8D100C07F90 /* Alamofire */,
-				E0708C142FA0DBE800351371 /* IDity */,
 			);
 			productName = Test;
 			productReference = E07FAFA42F960FE20025161D /* Test.app */;
@@ -214,8 +205,6 @@
 			mainGroup = E07FAF9B2F960FE20025161D;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				E0F94FEB2F97A8D100C07F90 /* XCRemoteSwiftPackageReference "Alamofire" */,
-				E0708C132FA0DBE800351371 /* XCRemoteSwiftPackageReference "IDity-iOS" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = E07FAFA52F960FE20025161D /* Products */;
@@ -619,38 +608,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		E0708C132FA0DBE800351371 /* XCRemoteSwiftPackageReference "IDity-iOS" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/mhammoud85/IDity-iOS.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
-			};
-		};
-		E0F94FEB2F97A8D100C07F90 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.11.2;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		E0708C142FA0DBE800351371 /* IDity */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = E0708C132FA0DBE800351371 /* XCRemoteSwiftPackageReference "IDity-iOS" */;
-			productName = IDity;
-		};
-		E0F94FEC2F97A8D100C07F90 /* Alamofire */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = E0F94FEB2F97A8D100C07F90 /* XCRemoteSwiftPackageReference "Alamofire" */;
-			productName = Alamofire;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E07FAF9C2F960FE20025161D /* Project object */;
 }
