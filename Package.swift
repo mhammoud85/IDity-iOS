@@ -16,9 +16,6 @@ let package = Package(
         .binaryTarget(
             name: "IDity",
             path: "Frameworks/IDity.xcframework",
-            resources: [
-                .copy("PrivacyInfo.xcprivacy"),
-            ],
         )
     ]
 )
