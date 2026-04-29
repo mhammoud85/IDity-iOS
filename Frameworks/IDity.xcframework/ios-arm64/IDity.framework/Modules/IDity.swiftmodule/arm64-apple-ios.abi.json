@@ -2266,191 +2266,191 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/klevr\/Documents\/IDity-iOS\/IDity\/DocumentViewController.swift",
+      "filePath": "\/Users\/klevr\/Documents\/IDitySDK-iOS\/IDity\/DocumentViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 366,
+      "offset": 363,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/klevr\/Documents\/IDity-iOS\/IDity\/DocumentViewController.swift",
+      "filePath": "\/Users\/klevr\/Documents\/IDitySDK-iOS\/IDity\/DocumentViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 389,
+      "offset": 386,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/klevr\/Documents\/IDity-iOS\/IDity\/Extension.swift",
+      "filePath": "\/Users\/klevr\/Documents\/IDitySDK-iOS\/IDity\/Extension.swift",
       "kind": "FloatLiteral",
-      "offset": 3368,
+      "offset": 3365,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/klevr\/Documents\/IDity-iOS\/IDity\/IDitySDK.swift",
+      "filePath": "\/Users\/klevr\/Documents\/IDitySDK-iOS\/IDity\/IDitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 385,
+      "offset": 382,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/klevr\/Documents\/IDity-iOS\/IDity\/InfoObject.swift",
+      "filePath": "\/Users\/klevr\/Documents\/IDitySDK-iOS\/IDity\/InfoObject.swift",
       "kind": "StringLiteral",
-      "offset": 182,
+      "offset": 179,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/klevr\/Documents\/IDity-iOS\/IDity\/InfoObject.swift",
+      "filePath": "\/Users\/klevr\/Documents\/IDitySDK-iOS\/IDity\/InfoObject.swift",
       "kind": "StringLiteral",
-      "offset": 211,
+      "offset": 208,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/klevr\/Documents\/IDity-iOS\/IDity\/InfoObject.swift",
+      "filePath": "\/Users\/klevr\/Documents\/IDitySDK-iOS\/IDity\/InfoObject.swift",
       "kind": "StringLiteral",
-      "offset": 242,
+      "offset": 239,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/klevr\/Documents\/IDity-iOS\/IDity\/InfoObject.swift",
+      "filePath": "\/Users\/klevr\/Documents\/IDitySDK-iOS\/IDity\/InfoObject.swift",
       "kind": "StringLiteral",
-      "offset": 278,
+      "offset": 275,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/klevr\/Documents\/IDity-iOS\/IDity\/InfoObject.swift",
+      "filePath": "\/Users\/klevr\/Documents\/IDitySDK-iOS\/IDity\/InfoObject.swift",
       "kind": "StringLiteral",
-      "offset": 313,
+      "offset": 310,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/klevr\/Documents\/IDity-iOS\/IDity\/InfoObject.swift",
+      "filePath": "\/Users\/klevr\/Documents\/IDitySDK-iOS\/IDity\/InfoObject.swift",
       "kind": "StringLiteral",
-      "offset": 337,
+      "offset": 334,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/klevr\/Documents\/IDity-iOS\/IDity\/InfoObject.swift",
+      "filePath": "\/Users\/klevr\/Documents\/IDitySDK-iOS\/IDity\/InfoObject.swift",
       "kind": "StringLiteral",
-      "offset": 361,
+      "offset": 358,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/klevr\/Documents\/IDity-iOS\/IDity\/InfoObject.swift",
+      "filePath": "\/Users\/klevr\/Documents\/IDitySDK-iOS\/IDity\/InfoObject.swift",
       "kind": "StringLiteral",
-      "offset": 393,
+      "offset": 390,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/klevr\/Documents\/IDity-iOS\/IDity\/InfoObject.swift",
+      "filePath": "\/Users\/klevr\/Documents\/IDitySDK-iOS\/IDity\/InfoObject.swift",
       "kind": "StringLiteral",
-      "offset": 420,
+      "offset": 417,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/klevr\/Documents\/IDity-iOS\/IDity\/InfoObject.swift",
+      "filePath": "\/Users\/klevr\/Documents\/IDitySDK-iOS\/IDity\/InfoObject.swift",
       "kind": "StringLiteral",
-      "offset": 866,
+      "offset": 863,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/klevr\/Documents\/IDity-iOS\/IDity\/InfoObject.swift",
+      "filePath": "\/Users\/klevr\/Documents\/IDitySDK-iOS\/IDity\/InfoObject.swift",
       "kind": "StringLiteral",
-      "offset": 896,
+      "offset": 893,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/klevr\/Documents\/IDity-iOS\/IDity\/InfoObject.swift",
+      "filePath": "\/Users\/klevr\/Documents\/IDitySDK-iOS\/IDity\/InfoObject.swift",
       "kind": "StringLiteral",
-      "offset": 927,
+      "offset": 924,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/klevr\/Documents\/IDity-iOS\/IDity\/InfoObject.swift",
+      "filePath": "\/Users\/klevr\/Documents\/IDitySDK-iOS\/IDity\/InfoObject.swift",
       "kind": "StringLiteral",
-      "offset": 956,
+      "offset": 953,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/klevr\/Documents\/IDity-iOS\/IDity\/InfoObject.swift",
+      "filePath": "\/Users\/klevr\/Documents\/IDitySDK-iOS\/IDity\/InfoObject.swift",
       "kind": "StringLiteral",
-      "offset": 989,
+      "offset": 986,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/klevr\/Documents\/IDity-iOS\/IDity\/ResultViewController.swift",
+      "filePath": "\/Users\/klevr\/Documents\/IDitySDK-iOS\/IDity\/ResultViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 319,
+      "offset": 316,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/klevr\/Documents\/IDity-iOS\/IDity\/SelfieViewController.swift",
+      "filePath": "\/Users\/klevr\/Documents\/IDitySDK-iOS\/IDity\/SelfieViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1507,
+      "offset": 1504,
       "length": 3,
       "value": "250"
     },
     {
-      "filePath": "\/Users\/klevr\/Documents\/IDity-iOS\/IDity\/SelfieViewController.swift",
+      "filePath": "\/Users\/klevr\/Documents\/IDitySDK-iOS\/IDity\/SelfieViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1512,
+      "offset": 1509,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/klevr\/Documents\/IDity-iOS\/IDity\/SelfieViewController.swift",
+      "filePath": "\/Users\/klevr\/Documents\/IDitySDK-iOS\/IDity\/SelfieViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1539,
+      "offset": 1536,
       "length": 3,
       "value": "350"
     },
     {
-      "filePath": "\/Users\/klevr\/Documents\/IDity-iOS\/IDity\/SelfieViewController.swift",
+      "filePath": "\/Users\/klevr\/Documents\/IDitySDK-iOS\/IDity\/SelfieViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1544,
+      "offset": 1541,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/klevr\/Documents\/IDity-iOS\/IDity\/SelfieViewController.swift",
+      "filePath": "\/Users\/klevr\/Documents\/IDitySDK-iOS\/IDity\/SelfieViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1554,
+      "offset": 1551,
       "length": 3,
       "value": "250"
     },
     {
-      "filePath": "\/Users\/klevr\/Documents\/IDity-iOS\/IDity\/SelfieViewController.swift",
+      "filePath": "\/Users\/klevr\/Documents\/IDitySDK-iOS\/IDity\/SelfieViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1567,
+      "offset": 1564,
       "length": 3,
       "value": "350"
     },
     {
-      "filePath": "\/Users\/klevr\/Documents\/IDity-iOS\/IDity\/SelfieViewController.swift",
+      "filePath": "\/Users\/klevr\/Documents\/IDitySDK-iOS\/IDity\/SelfieViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1652,
+      "offset": 1649,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/klevr\/Documents\/IDity-iOS\/IDity\/SelfieViewController.swift",
+      "filePath": "\/Users\/klevr\/Documents\/IDitySDK-iOS\/IDity\/SelfieViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 1842,
+      "offset": 1839,
       "length": 3,
       "value": "0.5"
     }
