@@ -153,7 +153,7 @@ The IDity SDK is built with privacy in mind. Ensure that the PrivacyInfo.xcpriva
 
 For technical support, feature requests, or to obtain your Client Key, please reach out:
 
-Developer: mhammoud85
+Developer: beIN MOBILES
 
 Email: idity@beinmobiles.com
 
