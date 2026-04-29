@@ -10,7 +10,7 @@
 
 ## 🔑 Request a Client Key
 To use the IDity library in your project, you must obtain a **Client Key**. 
-Please contact **[mhammoud85@hotmail.com](mailto:mhammoud85@hotmail.com)** to get your credentials before starting your integration.
+Please contact **[idity@beinmobiles.com](mailto:idity@beinmobiles.com)** to get your credentials before starting your integration.
 
 ---
 
@@ -155,6 +155,6 @@ For technical support, feature requests, or to obtain your Client Key, please re
 
 Developer: mhammoud85
 
-Email: mhammoud85@hotmail.com
+Email: idity@beinmobiles.com
 
 
