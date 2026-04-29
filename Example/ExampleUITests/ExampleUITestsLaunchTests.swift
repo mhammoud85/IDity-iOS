@@ -2,7 +2,7 @@
 //  ExampleUITestsLaunchTests.swift
 //  ExampleUITests
 //
-//  Created by Mohamad Hammoud on 29/04/2026.
+//  Created by beIN MOBILES on 29/04/2026.
 //
 
 import XCTest
