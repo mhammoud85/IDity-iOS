@@ -17,13 +17,16 @@ let package = Package(
         .target(
             name: "IDity-iOS",
             dependencies: ["IDity"], // It depends on the binary below
-            path: "Sources/IDity-iOS"    // Points to your YourCode.swift folder
+            path: "Sources/IDity-iOS",    // Points to your YourCode.swift folder
+            resources: [
+                .copy("PrivacyInfo.xcprivacy"),
+            ],
         ),
         
         // 2. The Binary Target (The .xcframework)
         .binaryTarget(
             name: "IDity",
-            path: "Frameworks/IDity.xcframework"
+            path: "Frameworks/IDity.xcframework",
         )
     ]
 )

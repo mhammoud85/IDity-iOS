@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/klevr/Documents/IDity-iOS/.build/arm64-apple-macosx/debug/IDity_iOS.build/master.swiftdeps"
+  },
+  "/Users/klevr/Documents/IDity-iOS/Sources/IDity-iOS/Export.swift": {
+    "dependencies": "/Users/klevr/Documents/IDity-iOS/.build/arm64-apple-macosx/debug/IDity_iOS.build/Export.d",
+    "object": "/Users/klevr/Documents/IDity-iOS/.build/arm64-apple-macosx/debug/IDity_iOS.build/Export.swift.o",
+    "swiftmodule": "/Users/klevr/Documents/IDity-iOS/.build/arm64-apple-macosx/debug/IDity_iOS.build/Export~partial.swiftmodule",
+    "swift-dependencies": "/Users/klevr/Documents/IDity-iOS/.build/arm64-apple-macosx/debug/IDity_iOS.build/Export.swiftdeps",
+    "diagnostics": "/Users/klevr/Documents/IDity-iOS/.build/arm64-apple-macosx/debug/IDity_iOS.build/Export.dia"
+  }
+}
