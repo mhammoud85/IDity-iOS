@@ -20,7 +20,7 @@ public protocol IDityJourneyCallbacks : AnyObject {
   func onError(error: any Swift.Error)
 }
 @objc @_inheritsConvenienceInitializers public class IDitySDK : ObjectiveC.NSObject {
-  public static func initialize(clientKey: Swift.String, language: IDity.IDityLanguage = .en, tintColor: UIKit.UIColor = .tintColor)
+  public static func initialize(clientKey: Swift.String, recognitionLanguages: [IDity.IDityLanguage] = [.en], tintColor: UIKit.UIColor = .tintColor)
   public static func startJourney(from presenter: UIKit.UIViewController, referenceNumber: Swift.String, delegate: any IDity.IDityJourneyCallbacks)
   @objc override dynamic public init()
   @objc deinit

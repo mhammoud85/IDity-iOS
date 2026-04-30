@@ -248,7 +248,7 @@
           {
             "kind": "Function",
             "name": "initialize",
-            "printedName": "initialize(clientKey:language:tintColor:)",
+            "printedName": "initialize(clientKey:recognitionLanguages:tintColor:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -263,10 +263,18 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "IDityLanguage",
-                "printedName": "IDity.IDityLanguage",
+                "name": "Array",
+                "printedName": "[IDity.IDityLanguage]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IDityLanguage",
+                    "printedName": "IDity.IDityLanguage",
+                    "usr": "s:5IDity0A8LanguageO"
+                  }
+                ],
                 "hasDefaultArg": true,
-                "usr": "s:5IDity0A8LanguageO"
+                "usr": "s:Sa"
               },
               {
                 "kind": "TypeNominal",
@@ -277,8 +285,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:5IDity0A3SDKC10initialize9clientKey8language9tintColorySS_AA0A8LanguageOSo7UIColorCtFZ",
-            "mangledName": "$s5IDity0A3SDKC10initialize9clientKey8language9tintColorySS_AA0A8LanguageOSo7UIColorCtFZ",
+            "usr": "s:5IDity0A3SDKC10initialize9clientKey20recognitionLanguages9tintColorySS_SayAA0A8LanguageOGSo7UIColorCtFZ",
+            "mangledName": "$s5IDity0A3SDKC10initialize9clientKey20recognitionLanguages9tintColorySS_SayAA0A8LanguageOGSo7UIColorCtFZ",
             "moduleName": "IDity",
             "static": true,
             "declAttributes": [
