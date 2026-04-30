@@ -93,6 +93,8 @@ IDitySDK.startJourney(
 )
 ```
 
+---
+
 ## 📩 Handling Results (IDityJourneyCallbacks)
 
 Conform to the IDityJourneyCallbacks protocol to handle the lifecycle and results of the verification process.
