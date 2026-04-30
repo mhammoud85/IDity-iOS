@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E0708E6C2FA2135100351371 /* IDity-iOS in Frameworks */ = {isa = PBXBuildFile; productRef = E0708E6B2FA2135100351371 /* IDity-iOS */; };
+		E0708ED22FA33FA700351371 /* IDity-iOS in Frameworks */ = {isa = PBXBuildFile; productRef = E0708ED12FA33FA700351371 /* IDity-iOS */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,7 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0708E6C2FA2135100351371 /* IDity-iOS in Frameworks */,
+				E0708ED22FA33FA700351371 /* IDity-iOS in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,7 +130,7 @@
 			);
 			name = Example;
 			packageProductDependencies = (
-				E0708E6B2FA2135100351371 /* IDity-iOS */,
+				E0708ED12FA33FA700351371 /* IDity-iOS */,
 			);
 			productName = Example;
 			productReference = E0708E202FA212A300351371 /* Example.app */;
@@ -215,7 +215,7 @@
 			mainGroup = E0708E172FA212A200351371;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				E0708E6A2FA2135100351371 /* XCRemoteSwiftPackageReference "IDity-iOS" */,
+				E0708ED02FA33FA700351371 /* XCRemoteSwiftPackageReference "IDity-iOS" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = E0708E212FA212A300351371 /* Products */;
@@ -606,20 +606,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		E0708E6A2FA2135100351371 /* XCRemoteSwiftPackageReference "IDity-iOS" */ = {
+		E0708ED02FA33FA700351371 /* XCRemoteSwiftPackageReference "IDity-iOS" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/beinmobiles/IDity-iOS.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
+				minimumVersion = 1.0.4;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		E0708E6B2FA2135100351371 /* IDity-iOS */ = {
+		E0708ED12FA33FA700351371 /* IDity-iOS */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = E0708E6A2FA2135100351371 /* XCRemoteSwiftPackageReference "IDity-iOS" */;
+			package = E0708ED02FA33FA700351371 /* XCRemoteSwiftPackageReference "IDity-iOS" */;
 			productName = "IDity-iOS";
 		};
 /* End XCSwiftPackageProductDependency section */

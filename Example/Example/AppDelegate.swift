@@ -15,7 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        IDitySDK.initialize(clientKey: "CLIENT_KEY", tintColor: .systemRed)
+        IDitySDK.initialize(clientKey: "3274356529522985", recognitionLanguages: [.ar, .en, .fr], tintColor: .systemRed)
         
         return true
     }
