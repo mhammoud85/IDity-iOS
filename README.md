@@ -45,6 +45,12 @@ The SDK automatically detects and supports the following languages based on the 
 | `.de` | `German` |
 | `.ja` | `Japanese` |
 | `.ko` | `Korean` |
+| `.es` | `Spanish` |
+| `.it` | `Italian` |
+| `.pr` | `Portuguese` |
+| `.zh` | `Chinese` |
+| `.ru` | `Russian` |
+| `.uk` | `Ukrainian` |
 
 ---
 
