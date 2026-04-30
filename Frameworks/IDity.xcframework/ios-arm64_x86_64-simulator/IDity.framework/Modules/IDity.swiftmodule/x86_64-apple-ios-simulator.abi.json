@@ -248,7 +248,7 @@
           {
             "kind": "Function",
             "name": "initialize",
-            "printedName": "initialize(clientKey:tintColor:)",
+            "printedName": "initialize(clientKey:language:tintColor:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -263,6 +263,13 @@
               },
               {
                 "kind": "TypeNominal",
+                "name": "IDityLanguage",
+                "printedName": "IDity.IDityLanguage",
+                "hasDefaultArg": true,
+                "usr": "s:5IDity0A8LanguageO"
+              },
+              {
+                "kind": "TypeNominal",
                 "name": "UIColor",
                 "printedName": "UIKit.UIColor",
                 "hasDefaultArg": true,
@@ -270,8 +277,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:5IDity0A3SDKC10initialize9clientKey9tintColorySS_So7UIColorCtFZ",
-            "mangledName": "$s5IDity0A3SDKC10initialize9clientKey9tintColorySS_So7UIColorCtFZ",
+            "usr": "s:5IDity0A3SDKC10initialize9clientKey8language9tintColorySS_AA0A8LanguageOSo7UIColorCtFZ",
+            "mangledName": "$s5IDity0A3SDKC10initialize9clientKey8language9tintColorySS_AA0A8LanguageOSo7UIColorCtFZ",
             "moduleName": "IDity",
             "static": true,
             "declAttributes": [
@@ -2218,6 +2225,590 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "IDityLanguage",
+        "printedName": "IDityLanguage",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "ar",
+            "printedName": "ar",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IDity.IDityLanguage.Type) -> IDity.IDityLanguage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IDityLanguage",
+                    "printedName": "IDity.IDityLanguage",
+                    "usr": "s:5IDity0A8LanguageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IDity.IDityLanguage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IDityLanguage",
+                        "printedName": "IDity.IDityLanguage",
+                        "usr": "s:5IDity0A8LanguageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5IDity0A8LanguageO2aryA2CmF",
+            "mangledName": "$s5IDity0A8LanguageO2aryA2CmF",
+            "moduleName": "IDity"
+          },
+          {
+            "kind": "Var",
+            "name": "en",
+            "printedName": "en",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IDity.IDityLanguage.Type) -> IDity.IDityLanguage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IDityLanguage",
+                    "printedName": "IDity.IDityLanguage",
+                    "usr": "s:5IDity0A8LanguageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IDity.IDityLanguage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IDityLanguage",
+                        "printedName": "IDity.IDityLanguage",
+                        "usr": "s:5IDity0A8LanguageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5IDity0A8LanguageO2enyA2CmF",
+            "mangledName": "$s5IDity0A8LanguageO2enyA2CmF",
+            "moduleName": "IDity"
+          },
+          {
+            "kind": "Var",
+            "name": "fr",
+            "printedName": "fr",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IDity.IDityLanguage.Type) -> IDity.IDityLanguage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IDityLanguage",
+                    "printedName": "IDity.IDityLanguage",
+                    "usr": "s:5IDity0A8LanguageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IDity.IDityLanguage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IDityLanguage",
+                        "printedName": "IDity.IDityLanguage",
+                        "usr": "s:5IDity0A8LanguageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5IDity0A8LanguageO2fryA2CmF",
+            "mangledName": "$s5IDity0A8LanguageO2fryA2CmF",
+            "moduleName": "IDity"
+          },
+          {
+            "kind": "Var",
+            "name": "de",
+            "printedName": "de",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IDity.IDityLanguage.Type) -> IDity.IDityLanguage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IDityLanguage",
+                    "printedName": "IDity.IDityLanguage",
+                    "usr": "s:5IDity0A8LanguageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IDity.IDityLanguage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IDityLanguage",
+                        "printedName": "IDity.IDityLanguage",
+                        "usr": "s:5IDity0A8LanguageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5IDity0A8LanguageO2deyA2CmF",
+            "mangledName": "$s5IDity0A8LanguageO2deyA2CmF",
+            "moduleName": "IDity"
+          },
+          {
+            "kind": "Var",
+            "name": "ja",
+            "printedName": "ja",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IDity.IDityLanguage.Type) -> IDity.IDityLanguage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IDityLanguage",
+                    "printedName": "IDity.IDityLanguage",
+                    "usr": "s:5IDity0A8LanguageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IDity.IDityLanguage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IDityLanguage",
+                        "printedName": "IDity.IDityLanguage",
+                        "usr": "s:5IDity0A8LanguageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5IDity0A8LanguageO2jayA2CmF",
+            "mangledName": "$s5IDity0A8LanguageO2jayA2CmF",
+            "moduleName": "IDity"
+          },
+          {
+            "kind": "Var",
+            "name": "ko",
+            "printedName": "ko",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IDity.IDityLanguage.Type) -> IDity.IDityLanguage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IDityLanguage",
+                    "printedName": "IDity.IDityLanguage",
+                    "usr": "s:5IDity0A8LanguageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IDity.IDityLanguage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IDityLanguage",
+                        "printedName": "IDity.IDityLanguage",
+                        "usr": "s:5IDity0A8LanguageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5IDity0A8LanguageO2koyA2CmF",
+            "mangledName": "$s5IDity0A8LanguageO2koyA2CmF",
+            "moduleName": "IDity"
+          },
+          {
+            "kind": "Var",
+            "name": "es",
+            "printedName": "es",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IDity.IDityLanguage.Type) -> IDity.IDityLanguage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IDityLanguage",
+                    "printedName": "IDity.IDityLanguage",
+                    "usr": "s:5IDity0A8LanguageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IDity.IDityLanguage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IDityLanguage",
+                        "printedName": "IDity.IDityLanguage",
+                        "usr": "s:5IDity0A8LanguageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5IDity0A8LanguageO2esyA2CmF",
+            "mangledName": "$s5IDity0A8LanguageO2esyA2CmF",
+            "moduleName": "IDity"
+          },
+          {
+            "kind": "Var",
+            "name": "it",
+            "printedName": "it",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IDity.IDityLanguage.Type) -> IDity.IDityLanguage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IDityLanguage",
+                    "printedName": "IDity.IDityLanguage",
+                    "usr": "s:5IDity0A8LanguageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IDity.IDityLanguage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IDityLanguage",
+                        "printedName": "IDity.IDityLanguage",
+                        "usr": "s:5IDity0A8LanguageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5IDity0A8LanguageO2ityA2CmF",
+            "mangledName": "$s5IDity0A8LanguageO2ityA2CmF",
+            "moduleName": "IDity"
+          },
+          {
+            "kind": "Var",
+            "name": "pr",
+            "printedName": "pr",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IDity.IDityLanguage.Type) -> IDity.IDityLanguage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IDityLanguage",
+                    "printedName": "IDity.IDityLanguage",
+                    "usr": "s:5IDity0A8LanguageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IDity.IDityLanguage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IDityLanguage",
+                        "printedName": "IDity.IDityLanguage",
+                        "usr": "s:5IDity0A8LanguageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5IDity0A8LanguageO2pryA2CmF",
+            "mangledName": "$s5IDity0A8LanguageO2pryA2CmF",
+            "moduleName": "IDity"
+          },
+          {
+            "kind": "Var",
+            "name": "zh",
+            "printedName": "zh",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IDity.IDityLanguage.Type) -> IDity.IDityLanguage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IDityLanguage",
+                    "printedName": "IDity.IDityLanguage",
+                    "usr": "s:5IDity0A8LanguageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IDity.IDityLanguage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IDityLanguage",
+                        "printedName": "IDity.IDityLanguage",
+                        "usr": "s:5IDity0A8LanguageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5IDity0A8LanguageO2zhyA2CmF",
+            "mangledName": "$s5IDity0A8LanguageO2zhyA2CmF",
+            "moduleName": "IDity"
+          },
+          {
+            "kind": "Var",
+            "name": "ru",
+            "printedName": "ru",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IDity.IDityLanguage.Type) -> IDity.IDityLanguage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IDityLanguage",
+                    "printedName": "IDity.IDityLanguage",
+                    "usr": "s:5IDity0A8LanguageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IDity.IDityLanguage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IDityLanguage",
+                        "printedName": "IDity.IDityLanguage",
+                        "usr": "s:5IDity0A8LanguageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5IDity0A8LanguageO2ruyA2CmF",
+            "mangledName": "$s5IDity0A8LanguageO2ruyA2CmF",
+            "moduleName": "IDity"
+          },
+          {
+            "kind": "Var",
+            "name": "uk",
+            "printedName": "uk",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IDity.IDityLanguage.Type) -> IDity.IDityLanguage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IDityLanguage",
+                    "printedName": "IDity.IDityLanguage",
+                    "usr": "s:5IDity0A8LanguageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IDity.IDityLanguage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IDityLanguage",
+                        "printedName": "IDity.IDityLanguage",
+                        "usr": "s:5IDity0A8LanguageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5IDity0A8LanguageO2ukyA2CmF",
+            "mangledName": "$s5IDity0A8LanguageO2ukyA2CmF",
+            "moduleName": "IDity"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "IDity.IDityLanguage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IDityLanguage",
+                    "printedName": "IDity.IDityLanguage",
+                    "usr": "s:5IDity0A8LanguageO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:5IDity0A8LanguageO8rawValueACSgSS_tcfc",
+            "mangledName": "$s5IDity0A8LanguageO8rawValueACSgSS_tcfc",
+            "moduleName": "IDity",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5IDity0A8LanguageO8rawValueSSvp",
+            "mangledName": "$s5IDity0A8LanguageO8rawValueSSvp",
+            "moduleName": "IDity",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5IDity0A8LanguageO8rawValueSSvg",
+                "mangledName": "$s5IDity0A8LanguageO8rawValueSSvg",
+                "moduleName": "IDity",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:5IDity0A8LanguageO",
+        "mangledName": "$s5IDity0A8LanguageO",
+        "moduleName": "IDity",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
@@ -2390,6 +2981,90 @@
       "offset": 986,
       "length": 2,
       "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/klevr\/Documents\/IDitySDK-iOS\/IDity\/Language.swift",
+      "kind": "StringLiteral",
+      "offset": 135,
+      "length": 7,
+      "value": "\"ar-SA\""
+    },
+    {
+      "filePath": "\/Users\/klevr\/Documents\/IDitySDK-iOS\/IDity\/Language.swift",
+      "kind": "StringLiteral",
+      "offset": 157,
+      "length": 7,
+      "value": "\"en-US\""
+    },
+    {
+      "filePath": "\/Users\/klevr\/Documents\/IDitySDK-iOS\/IDity\/Language.swift",
+      "kind": "StringLiteral",
+      "offset": 179,
+      "length": 7,
+      "value": "\"fr-FR\""
+    },
+    {
+      "filePath": "\/Users\/klevr\/Documents\/IDitySDK-iOS\/IDity\/Language.swift",
+      "kind": "StringLiteral",
+      "offset": 201,
+      "length": 7,
+      "value": "\"de-DE\""
+    },
+    {
+      "filePath": "\/Users\/klevr\/Documents\/IDitySDK-iOS\/IDity\/Language.swift",
+      "kind": "StringLiteral",
+      "offset": 223,
+      "length": 7,
+      "value": "\"ja-JP\""
+    },
+    {
+      "filePath": "\/Users\/klevr\/Documents\/IDitySDK-iOS\/IDity\/Language.swift",
+      "kind": "StringLiteral",
+      "offset": 245,
+      "length": 7,
+      "value": "\"ko-KR\""
+    },
+    {
+      "filePath": "\/Users\/klevr\/Documents\/IDitySDK-iOS\/IDity\/Language.swift",
+      "kind": "StringLiteral",
+      "offset": 267,
+      "length": 7,
+      "value": "\"es-ES\""
+    },
+    {
+      "filePath": "\/Users\/klevr\/Documents\/IDitySDK-iOS\/IDity\/Language.swift",
+      "kind": "StringLiteral",
+      "offset": 289,
+      "length": 7,
+      "value": "\"it-IT\""
+    },
+    {
+      "filePath": "\/Users\/klevr\/Documents\/IDitySDK-iOS\/IDity\/Language.swift",
+      "kind": "StringLiteral",
+      "offset": 311,
+      "length": 7,
+      "value": "\"pt-BR\""
+    },
+    {
+      "filePath": "\/Users\/klevr\/Documents\/IDitySDK-iOS\/IDity\/Language.swift",
+      "kind": "StringLiteral",
+      "offset": 333,
+      "length": 9,
+      "value": "\"zh-Hans\""
+    },
+    {
+      "filePath": "\/Users\/klevr\/Documents\/IDitySDK-iOS\/IDity\/Language.swift",
+      "kind": "StringLiteral",
+      "offset": 357,
+      "length": 7,
+      "value": "\"ru-RU\""
+    },
+    {
+      "filePath": "\/Users\/klevr\/Documents\/IDitySDK-iOS\/IDity\/Language.swift",
+      "kind": "StringLiteral",
+      "offset": 379,
+      "length": 7,
+      "value": "\"uk-UA\""
     },
     {
       "filePath": "\/Users\/klevr\/Documents\/IDitySDK-iOS\/IDity\/ResultViewController.swift",
