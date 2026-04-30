@@ -36,9 +36,15 @@ You must add the camera permission key to your app's **Info.plist**. Without thi
 
 ### Supported Languages
 The SDK automatically detects and supports the following languages based on the device settings:
-* **English** 🇺🇸
-* **French** 🇫🇷
-* **Arabic** 🇱🇧
+
+| Case | Language |
+| :--- | :--- |
+| `.ar` | `Arabic` |
+| `.en` | `English` |
+| `.fr` | `French` |
+| `.de` | `German` |
+| `.ja` | `Japanese` |
+| `.ko` | `Korean` |
 
 ---
 
