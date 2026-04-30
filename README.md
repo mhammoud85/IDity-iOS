@@ -62,16 +62,16 @@ Using specific IDityLanguage cases improves OCR accuracy and performance by narr
 | Case | Language |
 | :--- | :--- |
 | `.ar` | `Arabic` |
+| `.zh` | `Chinese` |
 | `.en` | `English` |
 | `.fr` | `French` |
 | `.de` | `German` |
+| `.it` | `Italian` |
 | `.ja` | `Japanese` |
 | `.ko` | `Korean` |
-| `.es` | `Spanish` |
-| `.it` | `Italian` |
 | `.pr` | `Portuguese` |
-| `.zh` | `Chinese` |
 | `.ru` | `Russian` |
+| `.es` | `Spanish` |
 | `.uk` | `Ukrainian` |
 
 ---
