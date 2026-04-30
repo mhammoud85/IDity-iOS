@@ -34,6 +34,8 @@ You must add the camera permission key to your app's **Info.plist**. Without thi
 | :--- | :--- |
 | **NSCameraUsageDescription** | "We need camera access to scan your ID or Passport for identity verification." |
 
+---
+
 ## 🚀 Getting Started
 
 ### 1. Initialize the SDK
@@ -73,8 +75,6 @@ Using specific IDityLanguage cases improves OCR accuracy and performance by narr
 | `.ru` | `Russian` |
 | `.es` | `Spanish` |
 | `.uk` | `Ukrainian` |
-
----
 
 **Optimize for Detection:** The order of the languages in the array is significant. The engine processes the list sequentially, so you should place the most likely language for your target users at the beginning of the array.
 
