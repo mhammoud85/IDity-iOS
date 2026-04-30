@@ -54,7 +54,8 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
     
     // Initialize the library
     IDitySDK.initialize(
-        clientKey: "CLIENT_KEY", 
+        clientKey: "CLIENT_KEY",
+        recognitionLanguages: [.en, .fr],
         tintColor: .systemRed
     )
     
