@@ -7,7 +7,6 @@
 
 import UIKit
 import AVFoundation
-import Vision
 import IDity
 
 class ViewController: UIViewController, IDityJourneyCallbacks {

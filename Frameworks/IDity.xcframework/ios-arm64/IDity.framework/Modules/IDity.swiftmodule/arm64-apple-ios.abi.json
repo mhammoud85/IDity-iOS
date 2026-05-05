@@ -114,23 +114,17 @@
           {
             "kind": "Function",
             "name": "onJourneyStarted",
-            "printedName": "onJourneyStarted(journey:)",
+            "printedName": "onJourneyStarted()",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
               }
             ],
             "declKind": "Func",
-            "usr": "s:5IDity0A16JourneyCallbacksP02onB7Started7journeyySi_tF",
-            "mangledName": "$s5IDity0A16JourneyCallbacksP02onB7Started7journeyySi_tF",
+            "usr": "s:5IDity0A16JourneyCallbacksP02onB7StartedyyF",
+            "mangledName": "$s5IDity0A16JourneyCallbacksP02onB7StartedyyF",
             "moduleName": "IDity",
             "genericSig": "<τ_0_0 where τ_0_0 : IDity.IDityJourneyCallbacks>",
             "sugared_genericSig": "<Self where Self : IDity.IDityJourneyCallbacks>",
@@ -298,7 +292,7 @@
           {
             "kind": "Function",
             "name": "startJourney",
-            "printedName": "startJourney(from:referenceNumber:delegate:)",
+            "printedName": "startJourney(from:delegate:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -313,20 +307,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
                 "name": "IDityJourneyCallbacks",
                 "printedName": "any IDity.IDityJourneyCallbacks",
                 "usr": "s:5IDity0A16JourneyCallbacksP"
               }
             ],
             "declKind": "Func",
-            "usr": "s:5IDity0A3SDKC12startJourney4from15referenceNumber8delegateySo16UIViewControllerC_SSAA0aD9Callbacks_ptFZ",
-            "mangledName": "$s5IDity0A3SDKC12startJourney4from15referenceNumber8delegateySo16UIViewControllerC_SSAA0aD9Callbacks_ptFZ",
+            "usr": "s:5IDity0A3SDKC12startJourney4from8delegateySo16UIViewControllerC_AA0aD9Callbacks_ptFZ",
+            "mangledName": "$s5IDity0A3SDKC12startJourney4from8delegateySo16UIViewControllerC_AA0aD9Callbacks_ptFZ",
             "moduleName": "IDity",
             "static": true,
             "declAttributes": [
@@ -2888,7 +2876,7 @@
     {
       "filePath": "\/Users\/klevr\/Documents\/IDitySDK-iOS\/IDity\/IDitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 382,
+      "offset": 370,
       "length": 2,
       "value": "\"\""
     },
