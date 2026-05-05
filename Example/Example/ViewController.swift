@@ -10,7 +10,7 @@ import AVFoundation
 import IDity
 
 class ViewController: UIViewController, IDityJourneyCallbacks {
-    func onJourneyStarted(journey: Int) {
+    func onJourneyStarted() {
         
     }
     
@@ -35,7 +35,6 @@ class ViewController: UIViewController, IDityJourneyCallbacks {
     }
 
     @IBAction func didTapCapture(_ sender: Any) {
-        let referenceNo = "\(UIDevice.current.identifierForVendor?.uuidString ?? "")-\(Date().timeIntervalSince1970)"
-        IDitySDK.startJourney(from: self, referenceNumber: referenceNo, delegate: self)
+        IDitySDK.startJourney(from: self, delegate: self)
     }
 }
