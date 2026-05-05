@@ -34,18 +34,14 @@ You must add the camera permission key to your app's **Info.plist**. Without thi
 | :--- | :--- |
 | **NSCameraUsageDescription** | "We need camera access to scan your ID or Passport for identity verification." |
 
-### Supported Languages
-The SDK automatically detects and supports the following languages based on the device settings:
-* **English** 🇺🇸
-* **French** 🇫🇷
-* **Arabic** 🇱🇧
-
 ---
 
 ## 🚀 Getting Started
 
 ### 1. Initialize the SDK
-Initialize the SDK in your `AppDelegate`. You can pass a `tintColor` to match the SDK's UI elements (buttons, icons, and progress bars) to your app's branding.
+Initialize the SDK in your `AppDelegate`. You can pass a `tintColor` to match the SDK's UI elements (buttons and icons) to your app's branding. 
+
+The `recognitionLanguages` parameter uses the `IDityLanguage` enum. This allows the SDK to prioritize specific character sets, ensuring higher recognition accuracy in multilingual regions.
 
 ```swift
 import IDity
@@ -54,13 +50,33 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
     
     // Initialize the library
     IDitySDK.initialize(
-        clientKey: "CLIENT_KEY", 
+        clientKey: "CLIENT_KEY",
+        recognitionLanguages: [.en, .fr],
         tintColor: .systemRed
     )
     
     return true
 }
 ```
+
+Using specific IDityLanguage cases improves OCR accuracy and performance by narrowing the character search space.
+
+| Case | Language |
+| :--- | :--- |
+| `.ar` | `Arabic` |
+| `.zh` | `Chinese` |
+| `.en` | `English` |
+| `.fr` | `French` |
+| `.de` | `German` |
+| `.it` | `Italian` |
+| `.ja` | `Japanese` |
+| `.ko` | `Korean` |
+| `.pr` | `Portuguese` |
+| `.ru` | `Russian` |
+| `.es` | `Spanish` |
+| `.uk` | `Ukrainian` |
+
+**Optimize for Detection:** The order of the languages in the array is significant. The engine processes the list sequentially, so you should place the most likely language for your target users at the beginning of the array.
 
 ### 2. Start the Journey
 Generate a unique reference number for the session and trigger the SDK UI.
@@ -76,6 +92,8 @@ IDitySDK.startJourney(
     delegate: self
 )
 ```
+
+---
 
 ## 📩 Handling Results (IDityJourneyCallbacks)
 
