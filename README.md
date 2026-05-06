@@ -19,7 +19,7 @@ Please contact **[idity@beinmobiles.com](mailto:idity@beinmobiles.com)** to get 
 ### Swift Package Manager (SPM)
 1. In Xcode, go to **File > Add Packages...**
 2. Enter the following repository URL:
-   `https://github.com/mhammoud85/IDity-iOS.git`
+   `https://github.com/beinmobiles/IDity-iOS.git`
 3. Set the dependency rule to the latest version or branch.
 
 **Minimum Deployment Target:** iOS 15.6
