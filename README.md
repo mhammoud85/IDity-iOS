@@ -79,7 +79,6 @@ Using specific IDityLanguage cases improves OCR accuracy and performance by narr
 **Optimize for Detection:** The order of the languages in the array is significant. The engine processes the list sequentially, so you should place the most likely language for your target users at the beginning of the array.
 
 ### 2. Start the Journey
-Generate a unique reference number for the session and trigger the SDK UI.
 
 ```swift
 // Start the verification process
