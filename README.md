@@ -82,13 +82,9 @@ Using specific IDityLanguage cases improves OCR accuracy and performance by narr
 Generate a unique reference number for the session and trigger the SDK UI.
 
 ```swift
-// Generate a unique reference number
-let referenceNo = "\(UIDevice.current.identifierForVendor?.uuidString ?? "")-\(Date().timeIntervalSince1970)"
-
 // Start the verification process
 IDitySDK.startJourney(
     from: self, 
-    referenceNumber: referenceNo, 
     delegate: self
 )
 ```
@@ -103,8 +99,8 @@ Conform to the IDityJourneyCallbacks protocol to handle the lifecycle and result
 extension YourViewController: IDityJourneyCallbacks {
 
     /// Called when the SDK successfully initializes and the UI appears
-    func onJourneyStarted(journey: Int) {
-        print("Identity journey \(journey) has started.")
+    func onJourneyStarted() {
+        print("IDity journey has started.")
     }
 
     /// Called when the document scanning and verification is successful
